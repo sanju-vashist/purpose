@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangout Invitation</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: lightpink;">
+	<div class="container">
+		<img src="kiss1.gif" alt="Centered Image">
+		<h1> Hehehehehe, I knew it! ?😘</h1>
+        <h2>Contact Me</h2>
+		<div class="button">
+			<button id="whatsappButton">What's app</button>
+		    <button id="instagramButton">Instagram</button>
+		</div>
+		
+	</div>
+
+	<script>
+		document.getElementById("instagramButton").addEventListener("click", function() {
+			var instagramID = "sanju_vashist22"; 
+			window.location.href = "https://www.instagram.com/" + instagramID;
+		});
+
+		document.getElementById("whatsappButton").addEventListener("click", function() {
+    var whatsappNumber = "918572069441"; 
+    var whatsappLink = "https://wa.me/" + whatsappNumber;
+    window.location.href = whatsappLink;
+});
+
+	</script>
+		
+
+</body>
+</html>

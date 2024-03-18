@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangout Invitation</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: lightpink;">
+	<div class="container">
+		<img src="wating.gif" alt="Centered Image">
+		<h1> Last chance ?😗</h1>
+		<div class="button">
+			<button id="yes-btn">Yes</button>
+		    <button id="no-btn">No</button>
+		</div>
+		
+	</div>
+	<script>
+		document.getElementById("yes-btn").addEventListener("click", function() {
+			window.location.href = "yes.html";
+		});
+		document.getElementById("no-btn").addEventListener("click", function() {
+    var button = document.getElementById("no-btn");
+    var maxX = window.innerWidth - button.offsetWidth;
+    var maxY = window.innerHeight - button.offsetHeight;
+    var randomX = Math.floor(Math.random() * maxX);
+    var randomY = Math.floor(Math.random() * maxY);
+    button.style.position = "absolute";
+    button.style.left = randomX + "px";
+    button.style.top = randomY + "px";
+});
+	</script>
+</body>
+</html>

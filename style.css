@@ -1,0 +1,60 @@
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+#button{
+    display: inline-block;
+}
+#yes-btn{
+    background-color: rgb(71, 187, 223);
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    display: inline;
+    margin: 10 px;
+}
+#no-btn{
+    background-color: rgb(71, 187, 223);
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+
+
+
+    display: inline;
+    margin: 10px;
+}
+#instagramButton{
+    background-color: rgb(71, 187, 223);
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    display: inline;
+    margin: 10 px;
+}
+#whatsappButton{
+    background-color: rgb(71, 187, 223);
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    display: inline;
+    margin: 10 px;
+}
